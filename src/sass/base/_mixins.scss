@@ -8,6 +8,20 @@
     border-radius: 100%;
     z-index: -1;
     top: -25%;
-    left: 0;
+    left: 0px;
+  }
+}
+
+@mixin before_monitor {
+  &:before {
+    position: absolute;
+    content: '';
+    width: 36px;
+    height: 36px;
+    background: $color1;
+    border-radius: 100%;
+    z-index: -1;
+    top: 8px;
+    left: -65px;
   }
 }
